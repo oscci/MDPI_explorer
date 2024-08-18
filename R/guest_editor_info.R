@@ -11,7 +11,7 @@
 #' }
 
 
-guest_editor_info <- function(journal_urls, sample_size, sleep=2) {
+guest_editor_info <- function(journal_urls, sample_size, sleep=1) {
   
   if (missing(sample_size)) {
     sample_size=length(journal_urls)
